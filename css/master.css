@@ -1,0 +1,240 @@
+
+/*********************** tag selectors ***********************/
+
+a {
+  text-decoration: none;
+}
+
+body {
+    background-color: #ffffff;
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+}
+
+body::after {
+  content: "";
+  background: url(https://www.carbonbrief.org/wp-content/uploads/2015/03/stock-old-library-books.jpg);
+  opacity: 0.13;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+footer {
+text-align: center;
+margin: auto;
+width: 100%;
+position: absolute;
+  bottom: 1em;
+}
+
+h1 {
+    font-size: 2.4em;
+    line-height: 1.2em;
+    margin-bottom: .75em;
+    margin-top: .75em;
+    padding: 0;
+    clear: right;
+    color: #212121;
+    font-family: "Droid serif", georgia, serif;
+    font-weight: normal;
+}
+
+hr{
+  border-color: #212121;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: .5em;
+  width: 10%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  margin: auto;
+  width: 98%;
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/*********************** class selectors ***********************/
+
+.about {
+  text-align: center;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.description {
+  text-align: justify;
+}
+
+.embed {
+  text-align: center;
+padding-top: 100px;
+width:75%;
+margin: auto;
+}
+
+.infopage {
+position: absolute;
+top: 20%;
+}
+
+.introduction {
+  margin: auto;
+  width: 80%;
+}
+
+.nav {
+  background-color: #10147e;
+  border-bottom: solid 5px #6d9de2;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  margin: 0;
+
+
+  padding: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.nav a {
+  color: #FFFFFF;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
+.nav li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a {
+  transition: all ease-in-out 200ms;
+      transition-property: all;
+      transition-duration: 200ms;
+      transition-timing-function: ease-in-out;
+      transition-delay: 0s;
+}
+
+.nav li a:active {
+background-color: #0955a8;
+}
+
+.nav li a:hover {
+background-color: #1B76BC;
+box-shadow: 0 5px 0 #B8E0F4;
+}
+
+.profile-picture {
+  background-image: linear-gradient(45deg, #0000ff 0%, #10147e 20%, #1B76BC 50%, #B8E0F4 70%);
+  border-radius: 100%;
+  height: auto;
+  padding: 8px;
+  width: 15%;
+}
+
+.project-left {
+background-color: white;
+border-radius: 10%;
+
+line-height: 2;
+margin: auto;
+overflow: hidden;
+padding: 18px;
+text-align: left;
+
+
+}
+
+.project-right {
+background-color: white;
+border-radius: 10%;
+
+line-height: 2;
+margin: auto;
+overflow: hidden;
+padding: 18px;
+text-align: left;
+
+
+}
+
+.projects {
+
+}
+
+.projects-border {
+  background-image: linear-gradient(45deg, #10147e 0%, #1B76BC 50%, #B8E0F4 75%);
+  background-color: white;
+  border-radius: 10%;
+  padding: 10px;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.project-description {
+  margin: 0;
+  padding: 0;
+}
+
+.project-heading {
+  padding: 0;
+  margin: 0 ;
+}
+
+.project-icon-left {
+float: left;
+margin-right: 30px;
+width: 20%;
+}
+
+.project-icon-right {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+
+
+.top {
+  padding-top:4em;
+}
